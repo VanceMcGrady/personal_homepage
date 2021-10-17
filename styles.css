@@ -31,6 +31,8 @@ header h1 {
 
   transform: translate(-50%, -50%);
 
+  /*typewriter effect url: https://css-tricks.com/snippets/css/typewriter-effect/ */
+
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
