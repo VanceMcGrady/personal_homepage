@@ -1,7 +1,7 @@
 function greet() {
   const todaysDate = new Date();
   const currentTime = todaysDate.getHours();
-  const yourName = "Vance";
+  const yourName = "Vance.";
   let greeting = document.getElementById("greeting");
 
   console.log(todaysDate);
