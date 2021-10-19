@@ -16,7 +16,12 @@ header img {
   position: fixed;
 }
 
+.text-container {
+  display: flexbox;
+}
 header h1 {
+  display: inline-block;
+
   color: whitesmoke;
   font-family: "Playfair Display", sans-serif;
   position: fixed;
@@ -24,7 +29,6 @@ header h1 {
   top: 50%;
 
   transform: translate(-50%, -50%);
-  z-index: 1;
 
   /*typewriter effect url: https://css-tricks.com/snippets/css/typewriter-effect/ */
 
